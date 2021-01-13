@@ -1,0 +1,12 @@
+{
+  "name": "dicsrv",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro -l tcp://0.0.0.0:10101"
+  },
+  "dependencies": {
+    "micro": "^9.3.4"
+  }
+}
